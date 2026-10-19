@@ -1,0 +1,46 @@
+:root {
+  font-family: Inter, "Segoe UI", sans-serif;
+  color: #203731;
+  background: #f3f5f0;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1180px; margin: 0 auto; padding: 76px 28px; }
+header { display: flex; justify-content: space-between; align-items: center; gap: 28px; margin-bottom: 48px; }
+.eyebrow { color: #367264; font-size: 12px; font-weight: 700; letter-spacing: .16em; }
+h1 { font-size: clamp(30px, 4vw, 44px); letter-spacing: -.04em; line-height: 1.15; margin: 16px 0; }
+.intro, .footnote { color: #586e66; line-height: 1.6; }
+button { background: #124e43; color: white; border: 0; border-radius: 8px; padding: 14px 20px; font: inherit; font-weight: 600; cursor: pointer; white-space: nowrap; }
+button:hover { background: #206557; }
+button:focus-visible { outline: 3px solid #70bba1; outline-offset: 4px; }
+button:disabled { opacity: .65; cursor: wait; }
+section, .notice { background: white; border: 1px solid #dce4dc; border-radius: 12px; overflow: hidden; }
+.section-title { display: flex; justify-content: space-between; align-items: center; padding: 24px; }
+h2 { font-size: 20px; margin: 0; }
+.section-title span { font-size: 13px; color: #586e66; }
+.table-scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; white-space: nowrap; text-align: left; }
+thead { background: #f7f9f5; color: #586e66; font-size: 12px; }
+th, td { padding: 20px 24px; border-bottom: 1px solid #e8ede6; }
+tbody th { font-weight: 600; }
+tbody { font-size: 14px; }
+.sku { color: #586e66; font-family: Consolas, monospace; font-size: 12px; }
+.number { text-align: right; font-variant-numeric: tabular-nums; }
+.old-price { color: #687c73; }
+.new-price { font-weight: 700; font-size: 17px; }
+.reason { display: inline-block; padding: 7px 10px; border-radius: 6px; background: #edf4ef; color: #255c48; font-size: 12px; }
+.at_min, .at_max { background: #fff4da; color: #765614; }
+.no_competitors { background: #edf0f5; color: #50617b; }
+.footnote { margin: 0; padding: 20px 24px; font-size: 12px; }
+.notice { padding: 28px; line-height: 1.6; }
+.notice p { margin-bottom: 0; }
+.error { border-color: #e8b4a9; color: #873b2d; background: #fff9f7; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+@media (max-width: 720px) {
+  main { padding: 36px 16px; }
+  header { align-items: flex-start; flex-direction: column; margin-bottom: 28px; }
+  th, td { padding: 16px; }
+  .section-title, .footnote { padding: 20px 16px; }
+}
