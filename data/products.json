@@ -1,0 +1,7 @@
+[
+  { "sku": "TEA-01", "name": "Чай", "myPrice": 120, "minPrice": 80, "maxPrice": 150, "step": 5, "competitors": [{ "price": 110, "inStock": true }, { "price": 125, "inStock": true }] },
+  { "sku": "COFFEE-02", "name": "Кофе", "myPrice": 140, "minPrice": 100, "maxPrice": 180, "step": 10, "competitors": [{ "price": 105, "inStock": true }] },
+  { "sku": "COCOA-03", "name": "Какао", "myPrice": 130, "minPrice": 90, "maxPrice": 160, "step": 5, "competitors": [{ "price": 200, "inStock": true }] },
+  { "sku": "HONEY-04", "name": "Мёд", "myPrice": 200, "minPrice": 150, "maxPrice": 250, "step": 10, "competitors": [{ "price": 170, "inStock": false }] },
+  { "sku": "MILK-05", "name": "Молоко", "myPrice": 90, "minPrice": 60, "maxPrice": 120, "step": 2.5, "competitors": [{ "price": 89.9, "inStock": true }, { "price": 30, "inStock": false }] }
+]

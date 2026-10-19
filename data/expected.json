@@ -1,0 +1,7 @@
+[
+  { "sku": "TEA-01", "oldPrice": 120, "newPrice": 105, "reason": "UNDERCUT" },
+  { "sku": "COFFEE-02", "oldPrice": 140, "newPrice": 100, "reason": "AT_MIN" },
+  { "sku": "COCOA-03", "oldPrice": 130, "newPrice": 160, "reason": "AT_MAX" },
+  { "sku": "HONEY-04", "oldPrice": 200, "newPrice": 250, "reason": "NO_COMPETITORS" },
+  { "sku": "MILK-05", "oldPrice": 90, "newPrice": 87, "reason": "UNDERCUT" }
+]
