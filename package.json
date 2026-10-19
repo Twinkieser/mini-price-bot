@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "engines": { "node": "20.x" },
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "test": "vitest run",
     "server": "tsx server/index.ts",
@@ -27,6 +29,6 @@
     "tsx": "^4.19.2",
     "typescript": "~5.7.3",
     "vite": "^6.1.0",
-    "vitest": "^3.2.0"
+    "vitest": "^4.1.12"
   }
 }
